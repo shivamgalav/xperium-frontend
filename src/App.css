@@ -7,32 +7,39 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.navbar{
+  height: 5rem;
   background-color: #282c34;
-  min-height: 100vh;
+  /* padding: 1em; */
+  /* flex-direction: column; */
+  display: flex;
+  justify-content: space-between;
+}
+.navbar > h2{
+  color: aliceblue;
+}
+.mainBody{
+  display: flex;
+  justify-content: space-around;
+}
+.mainBody>div{
+  width: 45%;
+}
+.card-body{
+  padding: 0.25em;
+  display: flex;
+  justify-content: space-between;
+}
+.card-body-upper{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit-panel{
+  position: absolute;
+  top: 65%;
+  left: 30px;
+  width: 600px;
+  background-color: rgb(255, 255, 255);
 }
