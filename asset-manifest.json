@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/xperium-frontend/static/css/main.77dc3c01.css",
-    "main.js": "/xperium-frontend/static/js/main.f804b724.js",
+    "main.js": "/xperium-frontend/static/js/main.02952a79.js",
     "static/js/787.f8906380.chunk.js": "/xperium-frontend/static/js/787.f8906380.chunk.js",
     "static/media/logo.svg": "/xperium-frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/xperium-frontend/index.html",
     "main.77dc3c01.css.map": "/xperium-frontend/static/css/main.77dc3c01.css.map",
-    "main.f804b724.js.map": "/xperium-frontend/static/js/main.f804b724.js.map",
+    "main.02952a79.js.map": "/xperium-frontend/static/js/main.02952a79.js.map",
     "787.f8906380.chunk.js.map": "/xperium-frontend/static/js/787.f8906380.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77dc3c01.css",
-    "static/js/main.f804b724.js"
+    "static/js/main.02952a79.js"
   ]
 }
